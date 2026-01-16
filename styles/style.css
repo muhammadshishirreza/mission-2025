@@ -14,7 +14,7 @@
     font-weight: bolder;
     cursor: pointer;
 }
-
+/* Header Section */
 #header-title{
     height: 543px;
     display: flex;
@@ -34,6 +34,8 @@
     border-radius: 5px;
     padding-left: 20px;
     margin: 10px 0px;
+    font-size: 45px;
+    font-weight: bolder;
 }
 .colored-title{
     color: rgba(255, 173, 90, 1);
@@ -50,7 +52,55 @@
     height: 100%;
     
 }
+#my-mission{
+    margin: 20px 150px;
+}
+.mission-title{
+    font-size: 46px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.my-mission{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.mission-types{
+    padding: 24px;
+    border: none;
+    border-radius: 18px;
+}
+.type-image{
+    width: 130px;
+}
+.mission-types h4,p{
+    margin: 10px 30px;
+}
+.mission-types h4{
+    font-size: 24px;
+}
+.mission-types p{
+    font-size: 20px;
+    text-align: justify;
+}
+.type-mission{
+    background: rgba(79, 157, 166, 0.1);;
+}
+.type-vision{
+    background: rgba(255, 89, 89, 0.1);;
+}
+.type-goals{
+    background: rgba(255, 244, 214, 1);
+}
 
+
+
+
+
+
+
+/* Mobile Device */
 @media screen and (max-width: 539px) {
     #header-title{
         flex-direction: column-reverse;
