@@ -45,8 +45,34 @@
     margin: 0px 207px 0px 0px;
     padding: 20px;
 }
+
 .img-person{
     height: 100%;
     
+}
+
+@media screen and (max-width: 539px) {
+    #header-title{
+        flex-direction: column-reverse;
+        gap: 5px;
+        height: auto;
+    }
+
+    .header-title{
+        margin: 0px 30px;
+        text-align: center;
+    }
+    .title{
+        text-align: left;
+    }
+    .header-image{
+        margin: 0px 30px;
+    }
+    .img-person{
+        width: 100%;
+    }
+    .header-title p{
+    font-size: 17px;
+}
 }
 
